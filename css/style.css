@@ -1,0 +1,72 @@
+body
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(246,232,224,1) 100%);
+}
+.shadow1dp
+{
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.14), 0 2px 2px 0 rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
+}
+.shadow2dp
+{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14), 0 3px 4px 0 rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.20);
+}
+.shadow4dp
+{
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.20);
+}
+.shadow6dp
+{
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px 0 rgba(0,0,0,0.20);
+}
+.shadow8dp
+{
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 3px rgba(0,0,0,0.12), 0 4px 5px 0 rgba(0,0,0,0.20);
+}
+.shadow16dp
+{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px 0 rgba(0,0,0,0.20);
+}
+.vh100
+{
+    height: 100vh;
+    width: 100%;
+}
+.vh50
+{
+    height: 50vh;
+    width: 100%;
+}
+
+p:before{
+    border-left: 2px solid #c33;
+    border-top: 2px solid #c33;
+    content: " ";
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-left: -5%;
+}
+/*p:after{*/
+/*    border-right: 2px solid #c33;*/
+/*    border-bottom: 2px solid #c33;*/
+/*    float: right;*/
+/*    content: " ";*/
+/*    display: block;*/
+/*    height: 30px;*/
+/*    width: 30px;*/
+/*}*/
+
+
+::-webkit-scrollbar { width: 5px; height: 0px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: lightgray;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;}
+
+.carousel-inner .carousel-item.active,.carousel-inner .carousel-item-next,.carousel-inner .carousel-item-prev{display:flex}
+.carousel-inner .carousel-item-right.active,.carousel-inner .carousel-item-next{transform:translateX(25%)}
+.carousel-inner .carousel-item-left.active,.carousel-inner .carousel-item-prev{transform:translateX(-25%)}
+.carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left{transform:translateX(0)}
